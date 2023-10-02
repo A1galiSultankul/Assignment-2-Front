@@ -1,0 +1,164 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    opacity: 0.8;
+    background-size: cover;
+    text-align: center;
+    padding:40px;
+    color: #fff;
+    position: relative;
+    margin: 0px;
+}
+
+header img {
+    max-width: 100px;
+    position: absolute;
+    top:10px;
+    left:10px;
+    opacity: 0.8;
+    border-bottom: 3px solid black
+    margin: 0;
+}
+
+.left-float {
+  float: left;
+
+}
+.right-float {
+  float: right;
+}
+body {
+    background-image: url('i (7).jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.movie-list {
+    text-align: center;
+}
+
+.movie-list h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color:rgb(200, 200, 200);
+    text-shadow: 2px 2px 4px rgba(120, 120, 120, 0.4);
+}
+
+.movie-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-list li {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.movie-list li:hover {
+    transform: scale(1.03);
+}
+
+.movie-card {
+    width:500px;
+    height:auto;
+    text-align: center;
+}
+table {
+  border: 3px solid white;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.movie-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-details h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.movie-details p {
+    font-size: 16px;
+    color: #666;
+}
+#ds {
+  font-size:360%;
+  color:grey;
+  padding-bottom:40px;
+  padding-Top:20px
+
+}
+a:link{
+  color:grey;
+  background-color:transparent;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: brown;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.linkk{
+  padding-left:60px;
+  padding-right:60px;
+  font-size:230%;
+  color:white;
+}
+
+
+.left-float {
+  float: left;
+}
+footer{
+  text-align:center;
+  color:black;
+  background-color:#D2B48C;
+
+  padding:50px;
+  margin:0px;
+
+}
